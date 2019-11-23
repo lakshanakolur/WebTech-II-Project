@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="">
+	<meta charset="utf-8">
+	<title>Bubbles Typing Game</title>
+	<meta name="application-name" content="Bubbles Typing Game">
+	<meta name="author" content="KWENE NJUME Emmanuel">
+	<meta name="description" content="Play Bubbles Typing Game to know and to improve your keybord's typing frequency...">
+	<link rel="stylesheet" type="text/css" href="/static/styles/app_template.css">
+</head>
+<body>
+<div class="screen">
+    <header class="l-header">
+        <div class="wrap">
+            <img src="/static/img/Bulbula-Anuvaad.png" width = 30% height = 120px alt="Bubble Typing Game" padding = 100px/>
+        </div>
+    </header>
+    
+    <div class="wrap">
+        <section id="content">
+			<div id="gamescreen" class="gamescreen"></div>
+			<div class="main" id="main">
+				<ul class="menu" id="menu">
+					<li id="menuscreen">
+						<h1 class="menu-title">Game Menu</h1>
+						<p>
+							<i>Choose your game type start playing the game!</i>
+						</p>
+						<p id="gameMode">
+							
+							<a href="#" id="easy">Easy</a>
+							<a href="#" id="medium">Medium</a>
+							<a href="#" id="hard">Hard</a>
+							<a href="#" id="insane">Insane</a>
+							
+						</p>
+					</li>
+					<!-- end #menuscreen -->
+					
+					<li id="pausescreen">
+						<h1 class="menu-title">Paused!</h1>
+						<p>
+							<i>Type "space keybord touch" to come back to the current game!</i>
+						</p>
+						<p>
+							<a href="#" class="returnMenu">Game Menu</a>
+						</p>
+					</li>
+					<!-- end #pausescreen -->
+					
+					<li id="scorescreen">
+						<h1 class="menu-title">Scores</h1>
+						<p id="gameresult">
+						</p>
+						<p>
+							
+						</p>
+					</li>
+					<!-- end #scorescreen -->
+				</ul>
+			</div>
+            
+            <div id="stat">
+                <div class="missed">
+                    QUESTION
+                    <span id="missed">00</span>
+                </div>
+                <div class="score">
+                  
+                    
+                   
+                    ANSWER<br>
+                    <span id="answerspan"><input type="text" name="ans" id = "ans"></span>
+ 
+
+                </div>
+            </div>
+        </section>
+        
+        <footer class="l-footer">
+                
+        </footer>
+    </div>
+
+	<audio id="soundGoal">
+		<source src="/static/sound/ogg/remove.ogg" />
+		<source src="/static/sound/mp3/remove.mp3" />
+		Your browser does not support HTML5 audio.
+	</audio>
+
+	<audio id="soundFailure">
+		<source src="/static/sound/ogg/fail.ogg" />
+		<source src="/static/sound/mp3/fail.mp3" />
+		Your browser does not support HTML5 audio.
+	</audio>
+
+	<audio id="soundNope">
+		<source src="/static/sound/ogg/nope.ogg" />
+		<source src="/static/sound/mp3/nope.mp3" />
+		Your browser does not support HTML5 audio.
+	</audio>
+
+	<audio id="soundEnd">
+		<source src="/static/sound/ogg/tada.ogg" />
+		<source src="/static/sound/mp3/tada.mp3" />
+		Your browser does not support HTML5 audio.
+	</audio>
+
+	<script type="text/javascript" src="/static/scripts/vendor/jquery.min.js"></script>
+	<script type="text/javascript" src="/static/scripts/gamelogic.js"></script>
+	<script type="text/javascript"> var $ = jQuery; $(function() { var p = new Platform(); p.init(); }); </script>
+
+</div>	
+</body>
+</html>
