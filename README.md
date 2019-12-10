@@ -34,6 +34,10 @@ Better the current answer, harder the next question!
 One word may have multiple ‘correct’ translations, one more so than the others.
 For example, the hindi word ‘khush’, could be translated to happy or joyful. 
 
-<img width="1095" alt="Screenshot 2019-12-10 at 9 06 02 PM" src="https://user-images.githubusercontent.com/33753405/70543902-2e58c980-1b91-11ea-893a-2a739f8aa56d.png">
+<img width="500" alt="Screenshot 2019-12-10 at 9 06 02 PM" src="https://user-images.githubusercontent.com/33753405/70543902-2e58c980-1b91-11ea-893a-2a739f8aa56d.png">
+
+<img width="500" alt="Screenshot 2019-12-10 at 9 05 17 PM" src="https://user-images.githubusercontent.com/33753405/70544398-061d9a80-1b92-11ea-920a-cd07eaed82cd.png">
+
+<img width="500" alt="Screenshot 2019-12-10 at 9 05 00 PM" src="https://user-images.githubusercontent.com/33753405/70544409-09188b00-1b92-11ea-83bc-9129a7eebd08.png">
 
 
