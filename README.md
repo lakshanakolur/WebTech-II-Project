@@ -30,7 +30,7 @@ The difficulty of subsequent questions asked is contingent on how aptly the curr
 Better the current answer, harder the next question!
 
 <img width="500" alt="Screenshot 2019-12-10 at 9 05 17 PM" src="https://user-images.githubusercontent.com/33753405/70544398-061d9a80-1b92-11ea-920a-cd07eaed82cd.png">
-
+-
 <img width="500" alt="Screenshot 2019-12-10 at 9 05 00 PM" src="https://user-images.githubusercontent.com/33753405/70544409-09188b00-1b92-11ea-83bc-9129a7eebd08.png">
 
 
