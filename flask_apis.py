@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import sys
-sys.path.append('/Users/keertankrishnan/anaconda3')
+sys.path.append('/Users/lakshanakolur/anaconda3')
 from flask import Flask
 from flask import jsonify
 from flask import request
